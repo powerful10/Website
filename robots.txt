@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thinkaily.xyz/sitemap.xml
