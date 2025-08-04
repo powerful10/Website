@@ -45,3 +45,7 @@ window.addEventListener('scroll', () => {
 backToTopBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+if (location.protocol !== 'https:' || location.hostname !== 'www.thinkaily.xyz') {
+  location.href = 'https://www.thinkaily.xyz';
+}
